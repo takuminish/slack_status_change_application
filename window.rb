@@ -1,5 +1,7 @@
+# coding: utf-8
 
 require 'gtk3'
+require './EmojiChangeWindow.rb'
 require './slack.rb'
 require 'dotenv'
 
@@ -7,10 +9,8 @@ Dotenv.load
 
 TOKEN = ENV["SLACK"]
 p TOKEN
-window = Gtk::Window.new
+window = EmojiChangeWindow.new
 
-window.set_title("hoge")
-window.set_default_size(200,200)
 
 button_box = Gtk::ButtonBox.new(:vertical)
 window.add(button_box)
