@@ -1,7 +1,7 @@
 require 'gtk3'
 require './main.rb'
 
-TOKEN='xoxp-4968377563-221298001142-352601673827-436ef8605c2f278ba0bc57c47c2fdf65'
+TOKEN = ENV['SLACK_TOKEN']
 
 window = Gtk::Window.new
 
