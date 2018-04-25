@@ -1,5 +1,5 @@
 require 'gtk3'
-require './main.rb'
+require './slack.rb'
 
 TOKEN = ENV['SLACK_TOKEN']
 
