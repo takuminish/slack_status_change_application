@@ -1,8 +1,12 @@
+
 require 'gtk3'
 require './slack.rb'
+require 'dotenv'
 
-TOKEN = ENV['SLACK_TOKEN']
+Dotenv.load
 
+TOKEN = ENV["SLACK"]
+p TOKEN
 window = Gtk::Window.new
 
 window.set_title("hoge")

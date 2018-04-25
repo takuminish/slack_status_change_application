@@ -13,6 +13,7 @@ GEM
       glib2 (= 3.2.4)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.4.0)
     eventmachine (1.2.5)
     faraday (0.15.0)
       multipart-post (>= 1.2, < 3)
@@ -79,6 +80,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv
   gtk3
   http
   json

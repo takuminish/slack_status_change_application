@@ -13,3 +13,5 @@ gem 'http'
 gem 'json'
 #gtk
 gem 'gtk3'
+#dotenv
+gem 'dotenv'

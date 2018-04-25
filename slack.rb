@@ -8,7 +8,7 @@ def status_change(emoji,token)
     "https://slack.com/api/users.profile.set",
     params: {
       token: token,
-      profile: JSON.dump({status_emoji: emoji})
+      profile: JSON.dump({status_emoji: emoji,status_text: "aaa"})
     }
   )
                           
